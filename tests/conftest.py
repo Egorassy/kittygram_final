@@ -102,8 +102,6 @@ def deploy_info_file_content(
 def expected_deploy_info_file_content() -> dict[str, str]:
     return {
         'repo_owner': 'ваше имя пользователя на GitHub',
-        TASKI_DOMAIN_KEY: 'ссылка для доступа к проекту `Taski`',
-        KITTYGRAM_DOMAIN_KEY: 'ссылка для доступа к проекту Kittygram',
         'dockerhub_username': 'ваше имя пользователя на Docker Hub',
     }
 
